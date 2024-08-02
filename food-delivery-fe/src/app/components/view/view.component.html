@@ -1,0 +1,21 @@
+<div>
+  
+    <div class="submit-form">
+      
+      
+      <div class="form-group">
+        <label for="title">Email</label>
+        <input
+          class="form-control"
+          id="email"
+          required
+          [(ngModel)]="user.email"
+          name="email"
+        />
+      </div>
+
+      
+      <button (click)="getUserByEmail()" class="btn btn-success">Submit</button>
+      
+    </div>
+  </div>

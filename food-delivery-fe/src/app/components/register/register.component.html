@@ -1,0 +1,75 @@
+<div>
+  
+    <div class="submit-form">
+      
+      <div class="form-group">
+        <label for="title">Name</label>
+        <input
+          type="text"
+          class="form-control"
+          id="name"
+          required
+          [(ngModel)]="user.name"
+          name="name"
+        />
+      </div>
+  
+      <div class="form-group">
+        <label for="title">Email</label>
+        <input
+          class="form-control"
+          id="email"
+          required
+          [(ngModel)]="user.email"
+          name="email"
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="title">Password</label>
+        <input
+          class="form-control"
+          id="password"
+          required
+          [(ngModel)]="user.password"
+          name="password"
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="title">Role</label>
+        <input
+          class="form-control"
+          id="role"
+          required
+          [(ngModel)]="user.role"
+          name="role"
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="title">Address</label>
+        <input
+          class="form-control"
+          id="address"
+          required
+          [(ngModel)]="user.address"
+          name="address"
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="title">Phone</label>
+        <input
+          class="form-control"
+          id="phone"
+          required
+          [(ngModel)]="user.phone"
+          name="phone"
+        />
+      </div>
+  
+      <button (click)="registerUser()" class="btn btn-success">Submit</button>
+      
+    </div>
+  </div>
